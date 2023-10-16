@@ -1,0 +1,125 @@
+:root {
+  --white-color: #fff;
+  --orange-color: #ff6c00;
+  --dark-grey-color: #303030;
+  --light-grey-color: #9da4bd;
+  --light-grey-translucent: #9da4bd99;
+  --dark-text-color: #555555;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--dark-grey-color);
+  background-color: var(--white-color);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--orange-color);
+  border-radius: 25px;
+  color: var(--white-color);
+  width: 160px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.08px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.hero-nav {
+  background-color: var(--dark-grey-color);
+}
+
+.nav-link {
+  color: var(--white-color);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--orange-color);
+}
+
+.address-nav {
+  background-color: var(--dark-grey-color);
+}
+
+.socialmedia-section {
+  background-color: var(--white-color);
+}
+
+.socialmedia-link {
+  color: var(--dark-grey-color);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.2px;
+  line-height: 1.36;
+}
+
+.hero-section {
+  background-color: var(--dark-grey-color);
+}
+
+.translucent-paragraph {
+  color: var(--light-grey-translucent);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero-heading {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 3.6px;
+}
+
+.light-paragraph {
+  color: var(--light-grey-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+}

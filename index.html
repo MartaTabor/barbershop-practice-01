@@ -3,50 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@600;700&family=Ysabeau+Infant:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>BarberShop</title>
   </head>
   <body>
     <header>
-      <a href="#">
-        <img src="images/logo.jpg" alt="barbershop logo" width="69" height="56"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services & Prices</a></li>
-          <li><a href="#">Barbers</a></li>
-          <li><a href="#">Contact</a></li>
+      <a class="link" href="#">
+        <svg><use href="./images/icons/icons.svg#icon-logo"></use></svg>
+      </a>
+      <nav class="hero-nav">
+        <ul class="list">
+          <li><a class="link nav-link" href="#">About Us</a></li>
+          <li><a class="link nav-link" href="#">Services and Prices</a></li>
+          <li><a class="link nav-link" href="#">Barbers</a></li>
+          <li><a class="link nav-link" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <a href="tel:+44111111111">+44 111 111 111</a>
+      <address class="address-nav">
+        <a class="link nav-link" href="tel:+44111111111">+44 111 111 111</a>
 
-      <button type="button">SIGN UP ONLINE</button>
+        <button type="button">Online-Booking</button>
+      </address>
     </header>
 
     <main>
       <!--HERO-->
-      <section>
-        <div>
-          <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">YouTube</a></li>
+      <section class="hero-section">
+        <div class="socialmedia-section">
+          <ul class="list">
+            <li><a class="link socialmedia-link" href="#">Instagram</a></li>
+            <li><a class="link socialmedia-link" href="#">YouTube</a></li>
           </ul>
         </div>
         <div>
-          <p>A hair salon for men in Kyiv</p>
-          <h1>BarberShop</h1>
-          <p>
-            We are experts in haircutting. We work quickly, carefully, and
-            elegantly.
+          <p class="translucent-paragraph">A hair salon for men in Warsaw</p>
+          <h1 class="hero-heading">BarberShop</h1>
+          <p class="light-paragraph">
+            We are experts in trendy men’s haircuts. We work quickly, carefully
+            and with style.
           </p>
         </div>
       </section>
 
       <!--ABOUT US-->
-      <section>
-        <div>
-          <ul>
+      <section class="section">
+        <div class="container">
+          <ul class="list">
             <li>
               <img
                 src="images/about-us-img1.jpg"
@@ -64,253 +82,192 @@
               />
             </li>
           </ul>
-        </div>
-        <div>
-          <p>ABOUT US</p>
-          <h2>The Best Barbershop in your City</h2>
+          <p>About Us</p>
+          <h2>Best Barbershop in your city</h2>
           <p>
-            If you want to add confidence to your style and appearance – you're
-            in the right place.
+            If you want to add more confidence to your image, you should visit
+            us.
           </p>
           <p>
-            We are a team that never stands still and is constantly searching
-            for better solutions. When you come to us, you will never want to
-            give up your new style. We are a team that is always on a first-name
-            basis with the customer; we know well what the customer wants. We
-            are happy to upgrade your look!
+            We are a team that never stops at what has been achieved and are
+            thirsty for changes. And when you fall into the hands of our master,
+            you will never be the same again. We are a team that is always "on
+            the same wave" with clients. Therefore, we are always ready to
+            improve everyone who comes to us!
           </p>
-          <button type="button">SIGN UP ONLINE</button>
+          <button type="button">Online-Booking</button>
         </div>
       </section>
 
       <!--SERVICES & PRICES-->
-      <section>
-        <p>COME TO THE BEST BARBERS IN YOUR CITY</p>
-        <h2>Services & Prices</h2>
-        <ul>
-          <li><span>Men's haircut</span><span> from 100 PLN</span></li>
-          <li><span>Beard trimming</span><span> from 75 PLN</span></li>
-          <li><span>Mustache trimming</span><span> from 50 PLN</span></li>
-          <li><span></span>Straight razor shaving<span> from 75 PLN</span></li>
-        </ul>
-        <ul>
-          <li><span>Haircut - one lenght</span><span> from 50 PLN</span></li>
-          <li><span>Clipper haircut</span><span> from 75 PLN</span></li>
-          <li>
-            <span>Boy's haircut (up to 12 years's old)</span
-            ><span> from 80 PLN</span>
-          </li>
-          <li><span>Hair repigmentation</span><span> from 100 PLN</span></li>
-        </ul>
-        <button type="button">SIGN UP ONLINE</button>
+      <section class="section">
+        <div class="container">
+          <p class="translucent-paragraph">
+            Spend your time with the best masters
+          </p>
+          <h2>Services and prices</h2>
+          <ul class="list">
+            <li><span>Men's haircut</span><span> from 100 PLN</span></li>
+            <li><span>Beard trim</span><span> from 75 PLN</span></li>
+            <li><span>Mustache trim</span><span> from 50 PLN</span></li>
+            <li><span></span>Straight razor shave<span> from 75 PLN</span></li>
+          </ul>
+          <ul class="list">
+            <li><span>Trainee’s haircut</span><span> from 50 PLN</span></li>
+            <li>
+              <span>Haircut under the nozzle</span><span> from 75 PLN</span>
+            </li>
+            <li>
+              <span>Children’s haircut (0-12 y.o.)</span
+              ><span> from 80 PLN</span>
+            </li>
+            <li>
+              <span>Camouflage of gray hair</span><span> from 100 PLN</span>
+            </li>
+          </ul>
+          <button type="button">Online-Booking</button>
+        </div>
       </section>
 
       <!--WHY US-->
-      <section>
-        <div>
-          <ul>
+      <section class="section">
+        <div class="container">
+          <ul class="list">
             <li>
               <p>600</p>
-              <p>Happy customers every day</p>
+              <p>Satisfied customers per day</p>
             </li>
             <li>
               <p>50</p>
-              <p>Awards for the best customer service</p>
+              <p>Awards for excellent service</p>
             </li>
             <li>
               <p>20</p>
-              <p>The best barbers from Warsaw</p>
+              <p>Warsaw’s best professional barbers</p>
             </li>
             <li>
               <p>100</p>
-              <p>Gifts for loyal customers</p>
+              <p>Gifts for regular customers</p>
             </li>
           </ul>
-        </div>
-        <div>
-          <p>TRADITIONAL SCHOOL</p>
-          <h2>Why do customers come to us?</h2>
+          <p>Old traditional school</p>
+          <h2>Why people come to us?</h2>
           <p>
-            Only good things are said about us. But it's best to see and feel
-            once than to read 10 times.
+            Only good things are said about us. But it's better to see and feel
+            1 time than read 10 times.
           </p>
         </div>
       </section>
 
       <!--BARBERS-->
-      <section>
-        <p>FOR REAL MEN</p>
-        <h2>Our Barbers</h2>
-        <ul>
-          <li>
-            <img
-              src="images/barber-img1.jpg"
-              alt="Photo of John Smith"
-              width="370"
-              height="346"
-            />
-            <h3>John Smith</h3>
-            <p>Extreme Barber</p>
-            <a href="#"
-              ><img
-                src="images/icons/instagram.jpg"
-                alt="instagram logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/twitter.jpg"
-                alt="twitter logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/facebook.jpg"
-                alt="facebook logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/linkedin.jpg"
-                alt="linkedin logo"
-                width="20"
-                height="20"
-            /></a>
-          </li>
-          <li>
-            <img
-              src="images/barber-img2.jpg"
-              alt="Photo of Michael Doe"
-              width="370"
-              height="346"
-            />
-            <h3>Michael Doe</h3>
-            <p>Extreme Barber</p>
-            <a href="#"
-              ><img
-                src="images/icons/instagram.jpg"
-                alt="instagram logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/twitter.jpg"
-                alt="twitter logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/facebook.jpg"
-                alt="facebook logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/linkedin.jpg"
-                alt="linkedin logo"
-                width="20"
-                height="20"
-            /></a>
-          </li>
-          <li>
-            <img
-              src="images/barber-img3.jpg"
-              alt="Photo of Alan Black"
-              width="370"
-              height="346"
-            />
-            <h3>Alan Black</h3>
-            <p>Extreme Barber</p>
-            <a href="#"
-              ><img
-                src="images/icons/instagram.jpg"
-                alt="instagram logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/twitter.jpg"
-                alt="twitter logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/facebook.jpg"
-                alt="facebook logo"
-                width="20"
-                height="20" /></a
-            ><a href="#"
-              ><img
-                src="images/icons/linkedin.jpg"
-                alt="linkedin logo"
-                width="20"
-                height="20"
-            /></a>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <p>For true enjoyers of the atmosphere</p>
+          <h2>Our Barbers</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="images/barber-img1.jpg"
+                alt="Photo of John Smith"
+                width="370"
+                height="346"
+              />
+              <h3>John Smith</h3>
+              <p>Extreme Barber</p>
+            </li>
+            <li>
+              <img
+                src="images/barber-img2.jpg"
+                alt="Photo of Michael Doe"
+                width="370"
+                height="346"
+              />
+              <h3>Michael Doe</h3>
+              <p>Extreme Barber</p>
+            </li>
+            <li>
+              <img
+                src="images/barber-img3.jpg"
+                alt="Photo of Alan Black"
+                width="370"
+                height="346"
+              />
+              <h3>Alan Black</h3>
+              <p>Extreme Barber</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--GALLERY-->
-      <section>
-        <p>IN LATIN "BARBA" MEANS "BEARD"</p>
-        <h2 hidden>Photo Gallery</h2>
-        <ul>
-          <li>
-            <img
-              src="images/gallery/gallery-img1.jpg"
-              alt="barber cutting hair"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li>
-            <img
-              src="images/gallery/gallery-img2.jpg"
-              alt="barber trimming beard"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li>
-            <img
-              src="images/gallery/gallery-img3.jpg"
-              alt="barber at work"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li>
-            <img
-              src="images/gallery/gallery-img4.jpg"
-              alt="barber shaving hair"
-              width="270"
-              height="360"
-            />
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <p>In Latin "Barba" means "beard"</p>
+          <h2 hidden>Photo Gallery</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="images/gallery/gallery-img1.jpg"
+                alt="barber cutting hair"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li>
+              <img
+                src="images/gallery/gallery-img2.jpg"
+                alt="barber trimming beard"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li>
+              <img
+                src="images/gallery/gallery-img3.jpg"
+                alt="barber at work"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li>
+              <img
+                src="images/gallery/gallery-img4.jpg"
+                alt="barber shaving hair"
+                width="270"
+                height="360"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--CONTACT-->
-      <section>
-        <div>
-          <h3>Make an appointment online</h3>
-        </div>
-        <div>
+      <section class="section">
+        <div class="container">
+          <h2>Online-booking</h2>
+          <button type="button">Send</button>
           <h2>Contact</h2>
           <address>
-            <ul>
+            <ul class="list">
               <li>
-                <a href="https://goo.gl/maps/bfxh4Frj8WEBi1Mz5" target="_blank"
+                <a
+                  class="link"
+                  href="https://goo.gl/maps/bfxh4Frj8WEBi1Mz5"
+                  target="_blank"
                   >ul. Prosta 20 Warszawa, 00-850</a
                 >
               </li>
-              <li><a href="tel:+44111111111">+44 111 111 111</a></li>
               <li>
-                <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+                <a class="link" href="tel:+44111111111">+44 111 111 111</a>
+              </li>
+              <li>
+                <a class="link" href="mailto:barbershop@email.com"
+                  >barbershop@email.com</a
+                >
               </li>
             </ul>
           </address>
-          <p>OPENING TIMES</p>
+          <p>Opening Times</p>
           <p>Everyday from 9:00 to 22:00</p>
         </div>
       </section>
@@ -318,9 +275,9 @@
 
     <footer>
       <p>&copy; Copyright 2020</p>
-      <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">YouTube</a></li>
+      <ul class="list">
+        <li><a class="link socialmedia-link" href="#">Instagram</a></li>
+        <li><a class="link socialmedia-link" href="#">YouTube</a></li>
       </ul>
     </footer>
   </body>

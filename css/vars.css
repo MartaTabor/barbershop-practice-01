@@ -1,0 +1,20 @@
+:root {
+  --white-color: #fff;
+  --orange-color: #ff6c00;
+  --dark-grey-color: #303030;
+  --light-grey-color: #9da4bd;
+  --light-grey-translucent: #9da4bd99;
+  --dark-text-color: #555555;
+  --color-neutral-light: #f7f7f7;
+  --color-dark-translucent: #000000bb;
+
+  --color-text: var(var(--dark-grey-color));
+  --color-bg: var(var(--color-neutral-light));
+  --color-bg-alt: var(var(--white-color))
+
+  --font-text: "Open Sans", sans-serif;
+  --font-heading: "Raleway", sans-serif;
+
+  --tr-fn: cubic-bezier(0.4, 0, 0.2, 1);
+  --tr-duration: 0.25s;
+}

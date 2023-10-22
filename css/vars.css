@@ -8,9 +8,9 @@
   --color-neutral-light: #f7f7f7;
   --color-dark-translucent: #000000bb;
 
-  --color-text: var(var(--dark-grey-color));
-  --color-bg: var(var(--color-neutral-light));
-  --color-bg-alt: var(var(--white-color))
+  --color-text: var(--dark-grey-color);
+  --color-bg: var(--color-neutral-light);
+  --color-bg-alt: var(--white-color)
 
   --font-text: "Open Sans", sans-serif;
   --font-heading: "Raleway", sans-serif;

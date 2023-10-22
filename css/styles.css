@@ -1,3 +1,40 @@
 @import url(./globals.css);
 @import url(./vars.css);
 @import url(./hero.css);
+@import url(./about-us.css);
+
+.tagline {
+  color: var(--color-text);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  text-transform: uppercase;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.tagline::before {
+  content: "";
+  height: 1px;
+  width: 60px;
+  background-color: var(--color-text);
+  display: block;
+  flex-shrink: 0;
+}
+
+.second-heading {
+  color: var(--color-text);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 2.1px;
+}
+
+.section-description {
+  color: var(--dark-text-color);
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}

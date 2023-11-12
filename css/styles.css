@@ -3,6 +3,7 @@
 @import url(./hero.css);
 @import url(./about-us.css);
 @import url(./services-and-prices.css);
+@import url(./why-us.css);
 
 .tagline {
   color: var(--color-text);

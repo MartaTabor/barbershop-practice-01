@@ -343,17 +343,19 @@
           <h2 class="booking-contacts-heading">Online-booking</h2>
           <form name="signup_form" class="online-booking-form">
             <div class="name-phone-fields">
-              <div class="label-styles">
-            <label name="user_name">Name*</label>
-            <input class="input-box hidden" type="text" name="user_name" id="user_name" required>
+              <div class="label-wrapper">
+            <input class="input-box hidden-input" type="text" name="user_name" id="user_name" required>
+            <label name="user_name" class="label-styles">Name*</label>
             </div>
-            <div class="label-styles">
-            <label name="phone_number">Phone*</label>
-            <input class="input-box hidden" type="text" name="phone_number" id="phone_number" required>
+            <div class="label-wrapper">
+            <input class="input-box hidden-input" type="text" name="phone_number" id="phone_number" required>
+            <label name="phone_number" class="label-styles">Phone*</label>
             </div>
             </div>
+            <div class="comments-wrapper">
+            <textarea class="input-box comments-box hidden-input" name="message" id="messgae"></textarea>
             <label name="message" class="label-styles">Message</label>
-            <textarea class="input-box comments-box hidden" name="message" id="messgae"></textarea>
+            </div>
           <button type="submit" class="send-button">Send</button>
           </form>
           </div>

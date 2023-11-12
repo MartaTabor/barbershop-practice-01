@@ -5,6 +5,7 @@
 @import url(./services-and-prices.css);
 @import url(./why-us.css);
 @import url(./our-barbers.css);
+@import url(./gallery.css);
 
 .tagline {
   color: var(--color-text);

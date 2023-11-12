@@ -1,6 +1,7 @@
 .why-us-section {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 125px;
 }
 
 .why-us-list {

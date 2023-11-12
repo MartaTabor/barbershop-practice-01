@@ -6,6 +6,7 @@
 @import url(./why-us.css);
 @import url(./our-barbers.css);
 @import url(./gallery.css);
+@import url(./form-contact.css);
 
 .tagline {
   color: var(--color-text);

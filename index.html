@@ -337,33 +337,53 @@
       </section>
 
       <!--CONTACT-->
-      <section class="section">
-        <div class="container">
-          <h2>Online-booking</h2>
-          <button type="button">Send</button>
-          <h2>Contact</h2>
-          <address>
-            <ul class="list">
+      <section class="section booking-contacts-section">
+        <div class="container booking-contacts-section-box">
+          <div class="booking-box">
+          <h2 class="booking-contacts-heading">Online-booking</h2>
+          <form name="signup_form" class="online-booking-form">
+            <div class="name-phone-fields">
+              <div class="label-styles">
+            <label name="user_name">Name*</label>
+            <input class="input-box hidden" type="text" name="user_name" id="user_name" required>
+            </div>
+            <div class="label-styles">
+            <label name="phone_number">Phone*</label>
+            <input class="input-box hidden" type="text" name="phone_number" id="phone_number" required>
+            </div>
+            </div>
+            <label name="message" class="label-styles">Message</label>
+            <textarea class="input-box comments-box hidden" name="message" id="messgae"></textarea>
+          <button type="submit" class="send-button">Send</button>
+          </form>
+          </div>
+          <div class="contacts-box">
+          <h2 class="booking-contacts-heading">Contacts</h2>
+          <address class="address-details">
+            <ul class="list contacts-list">
               <li>
                 <a
-                  class="link"
+                  class="link contacts-link"
                   href="https://goo.gl/maps/bfxh4Frj8WEBi1Mz5"
                   target="_blank"
-                  >ul. Prosta 20 Warszawa, 00-850</a
+                  >ul. Prosta 20<br />Warszawa, 00-850</a
                 >
               </li>
               <li>
-                <a class="link" href="tel:+44111111111">+44 111 111 111</a>
+                <a class="link contacts-link" href="tel:+44111111111">+44 111 111 111</a>
               </li>
               <li>
-                <a class="link" href="mailto:barbershop@email.com"
+                <a class="link contacts-link" href="mailto:barbershop@email.com"
                   >barbershop@email.com</a
                 >
               </li>
             </ul>
           </address>
-          <p>Opening Times</p>
+          <div class="opening-hours">
+          <p class="tagline opening-hours-tagline">Opening Hours</p>
           <p>Everyday from 9:00 to 22:00</p>
+          </div>
+          </div>
         </div>
       </section>
     </main>

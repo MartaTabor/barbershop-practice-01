@@ -165,3 +165,9 @@
   display: block;
   flex-shrink: 0;
 }
+
+.contact-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

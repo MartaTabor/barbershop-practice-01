@@ -585,7 +585,9 @@ p {
 .gallery {
   margin-top: 44px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 690px;
 }
 
 .booking-contacts-section {
@@ -1368,7 +1370,9 @@ p {
 .gallery {
   margin-top: 44px;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  width: 100%;
 }
 
 .booking-contacts-section {

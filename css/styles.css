@@ -1313,7 +1313,12 @@ p {
 
 .barbers-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+}
+
+.barbers-title-box {
+  margin-left: 0;
 }
 
 .barbers-heading {
